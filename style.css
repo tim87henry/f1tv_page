@@ -1,0 +1,9 @@
+#header {
+    background: red;
+    height: 50px;
+}
+
+#header-img {
+    justify-content: center;
+    justify-items: center;
+}
