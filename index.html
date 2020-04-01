@@ -2,12 +2,53 @@
     <head>
         <link href="style.css" rel="stylesheet">
         <title>F1 TV - Subscribe Now</title>
+        <style>
+            @media (max-width:700px) {
+                h1 {
+                    font-size: 18px;
+                }
+            }
+            #form {
+                display:flex;
+            }
+        </style>
     </head>
     <body>
         <div id="header">
             <img src="https://www.formula1.com/etc/designs/fom-website/images/f1_logo.svg" id="header-img">
-            <nav id="nav-bar"></nav>
+            <nav id="nav-bar">
+                <a class="nav-link" href="#features">Features</a>
+                <a class="nav-link" href="#preview">Preview</a>
+                <a class="nav-link" href="#plans">Plans</a>
+            </nav>
         </div>
+        <div id="features">
+            <br>
+            <h1>Features</h1>
+            <ul>
+                <li>Highlights from every F1 session</li>
+                <li>Relive Classic races from the F! archive</li>
+                <li>Fasinating F1 Documentaries</li>
+            </ul>
+            <br>
+        </div>
+        <div id="preview">
+            <h1>Preview</h1><br><br>
+            <iframe src="https://youtube.com/embed/uE836Ss-87c" id="video"></iframe>
+            <br><br>
+        </div>
+        <div id="plans">
+            <h1>Plans</h1>
+            <ul>
+                <li>A$4.49 a month</li>
+                <li>A$42.99 a year</li>
+            </ul>
+            <br><br>
+        </div>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <input type="email" id="email" name="email" placeholder="Enter your mail ID for more info"><br>
+            <input type="submit" id="submit" value="Subscribe Now!!!">
+        </form>
     </body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> 
 </html>

@@ -1,9 +1,27 @@
 #header {
     background: red;
     height: 50px;
+    width: 100%;
+    position: fixed;
+    top: 0;
 }
 
 #header-img {
-    justify-content: center;
-    justify-items: center;
+    margin-top: 8px;
+}
+
+#nav-bar {
+    position: fixed;
+    right: 20px;
+    color: white;
+    margin-bottom: 8px;
+}
+
+#features {
+    margin-top: 50px;
+}
+
+#video {
+    height:400px;
+    width: 600px;
 }
