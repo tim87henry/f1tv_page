@@ -1,6 +1,6 @@
 #header {
     background: red;
-    height: 50px;
+    height: 60px;
     width: 100%;
     position: fixed;
     top: 0;
@@ -17,11 +17,57 @@
     margin-bottom: 8px;
 }
 
-#features {
-    margin-top: 50px;
+.nav-link {
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'Inria Sans', sans-serif;
+}
+
+#form {
+    margin-top: 80px;
+    justify-content: center;
+}
+
+#email {
+    width: 250px;
+    display: flex;
+}
+
+#submit {
+    display: flex;
+}
+
+tr {
+    text-align: left;
+}
+
+#preview {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #video {
     height:400px;
     width: 600px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+#features {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#plans {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }

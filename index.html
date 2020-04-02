@@ -1,6 +1,7 @@
 <html>
     <head>
         <link href="style.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:wght@700&display=swap" rel="stylesheet"> 
         <title>F1 TV - Subscribe Now</title>
         <style>
             @media (max-width:700px) {
@@ -18,37 +19,40 @@
             <img src="https://www.formula1.com/etc/designs/fom-website/images/f1_logo.svg" id="header-img">
             <nav id="nav-bar">
                 <a class="nav-link" href="#features">Features</a>
+                <b>||</b>
                 <a class="nav-link" href="#preview">Preview</a>
+                <b>||</b>
                 <a class="nav-link" href="#plans">Plans</a>
             </nav>
         </div>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <input type="email" id="email" name="email" placeholder="Enter your mail ID for more info">    
+            <input type="submit" id="submit" value="Start your engine!!!">
+        </form>
         <div id="features">
-            <br>
-            <h1>Features</h1>
-            <ul>
-                <li>Highlights from every F1 session</li>
-                <li>Relive Classic races from the F! archive</li>
-                <li>Fasinating F1 Documentaries</li>
-            </ul>
-            <br>
+            <table id="table">
+                <tr><th>Highlights</th></tr>
+                <tr><td>Highlights from every F1 session</td></tr>
+                <tr><th>Live Tracking</th></tr>
+                <tr><td>Live Tracking of every F1 session</td></tr>
+                <tr><th>Driver View</th></tr>
+                <tr><td>Choose the driver you want to view</td></tr>
+                <tr><th>Classic F1</th></tr>
+                <tr><td>Relive Classic races from the F1 archive</td></tr>
+            </table>
         </div>
         <div id="preview">
-            <h1>Preview</h1><br><br>
+            <br><br>
             <iframe src="https://youtube.com/embed/uE836Ss-87c" id="video"></iframe>
             <br><br>
         </div>
-        <div id="plans">
-            <h1>Plans</h1>
+        <div id="plans"> 
             <ul>
                 <li>A$4.49 a month</li>
                 <li>A$42.99 a year</li>
             </ul>
             <br><br>
         </div>
-        <form id="form" action="https://www.freecodecamp.com/email-submit">
-            <input type="email" id="email" name="email" placeholder="Enter your mail ID for more info"><br>
-            <input type="submit" id="submit" value="Subscribe Now!!!">
-        </form>
     </body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> 
 </html>
