@@ -21,7 +21,7 @@
     justify-content: center;
     color: white;
     font-size: 20px;
-    font-family: 'Inria Sans', sans-serif;
+    font-family: 'Sen', sans-serif;
 }
 
 #form {
@@ -36,6 +36,8 @@
 
 #submit {
     display: flex;
+    margin: 10px;
+    height: 25px;
 }
 
 tr {
@@ -62,6 +64,15 @@ tr {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: 'Sen', sans-serif;
+}
+
+th {
+    font-size: 20px;
+}
+
+td {
+    font-size: 18px;
 }
 
 #plans {
@@ -70,4 +81,6 @@ tr {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: 'Sen', sans-serif;
+    font-size: 18px;
 }
